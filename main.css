@@ -1,0 +1,150 @@
+
+.home-img {
+  border-left: solid white 7px;
+  height: 85vh; 
+  width: 100vh; 
+  background-image: url('images/plant-jar.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-img2 {
+  border-left: solid white 7px;
+  height: 85vh; 
+  width: 100vh; 
+  background-image: url('images/ingredient.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-bg {
+  background-color: #954E42;
+  color: white;
+}
+
+.home-bg h1 {
+  font-family: 'Merriweather', serif;
+  padding-top: 20px;
+  font-size: 2.9rem;
+}
+
+.home-bg p {
+  font-family: 'Arvo', serif;
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+
+span {
+  font-weight: 700;
+}
+
+button {
+  font-family: 'Arvo', serif;
+}
+
+button:hover, #start:hover {
+  background-color: #504844 !important;
+  color: white !important;
+}
+
+.bg-bottom {
+  background-color: #C78C74;
+  color: white;
+  width: 100vh;
+  height: 10vh;
+}
+
+.col p {
+  font-family: 'Arvo', serif;
+  font-size: 1.2rem;
+}
+
+.col p:nth-child(2) {
+  font-size: .9rem;
+}
+
+#ShopLink, #start{
+  text-align: center;
+  display:block;
+  color: #504844 !important;
+  font-size: 1.1rem;
+  text-decoration: underline;
+  font-family: 'Arvo', serif;
+  padding-bottom: 10px;
+}
+
+#start {
+  background-color: #C78C74;
+  width: 35%;
+  position: relative;
+  left: 33%;
+  margin-top: 10px;
+  color: white !important;
+  text-decoration: none;
+}
+#ShopLink:hover {
+  color: #954E42 !important;
+}
+
+.feature-img {
+  background-image: url('images/flowerset.jpg');
+  height: 110vh; 
+  width: 100vh; 
+  /* background-image: url('images/ingredient.jpeg'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#icon {
+  color: #3B5998;
+  font-size: 5rem;
+}
+
+.works {
+  text-align: center !important;
+  font-family: 'Merriweather', serif;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+.navbar-brand {
+  font-family: 'Merriweather', serif;
+}
+
+h5, p, .nav-item {
+  font-family: 'Arvo', serif;
+}
+
+.nav-item:hover {
+  border-bottom: white 2px solid;
+}
+
+.work-label, .footer-label {
+  color: #954E42;
+}
+
+footer {
+  background-color: #F7EEEA;
+}
+
+.footer-link {
+  display: block;
+  color: #954E42 !important;
+  font-size: .9rem;
+  margin-top: 5px;
+}
+
+.footer-icon {
+color: #954E42 !important;
+font-size: 1.5rem;
+margin-top: 5px;
+}
+
+nav.navbar {
+  background-color: rgb(235, 195, 179) !important;
+}
+
+  

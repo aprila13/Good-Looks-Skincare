@@ -1,0 +1,86 @@
+.productPic img {
+  height: 600px;
+  width: 450px;
+}
+
+#productContainer{
+  margin-top: 20px !important;
+  
+}
+
+.productDes {
+  font-family: 'Merriweather', serif;
+  height: 73vh;
+  display: inline-block;
+  background-color: rgba(235, 195, 179, 0.199);
+}
+
+.productDes h3 {
+  font-family: 'Merriweather', serif;
+  color: #504844 !important;
+  font-size: 1.8rem;
+}
+
+.productDes li, .productDes p {
+  font-family: 'Arvo', serif;
+  color: #504844 !important;
+  font-size: .9rem;
+}
+
+.productDes h6, .productDes small {
+  font-family: 'Arvo', serif;
+  color: #504844 !important;
+}
+
+
+.price {
+  margin-left: 128px;
+}
+
+.bordering {
+  border-bottom: #504844 1px dashed;
+  padding-top: 20px;
+  width: 75%;
+  position: relative;
+  left: 10%;
+}
+
+#minus, #add {
+  cursor: pointer;
+}
+
+.quantity {
+  display: inline-block;
+  position: relative;
+}
+
+.quantity button, .quantity h6, .quantity p {
+  font-size: 1.5rem;
+  color: #504844 !important;
+}
+
+
+div.quantity {
+  padding-top: 20px;
+
+}
+
+button.quantity {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+button.quantity:hover {
+  color: white !important;
+}
+
+h6.quantity {
+  margin-left: 180px !important;
+}
+
+@media (max-width: 765px){
+  h6.quantity {
+  margin-left: 160px !important;
+}
+}
